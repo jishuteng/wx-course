@@ -1,0 +1,83 @@
+{
+  "id": "yyyddyyd-timetables",
+  "displayName": "课表插件",
+  "version": "1.0.0",
+  "description": "这是一款课表小插件的前端，目前测试支持安卓/小程序",
+  "keywords": [
+    "校园",
+    "课程表",
+    "课表"
+],
+  "repository": "",
+"engines": {
+  },
+"dcloudext": {
+    "sale": {
+      "regular": {
+        "price": 5
+      },
+      "sourcecode": {
+        "price": 99
+      }
+    },
+    "contact": {
+      "qq": "1763456256"
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    },
+    "npmurl": "",
+    "type": "unicloud-admin"
+  },
+  "uni_modules": {
+    "dependencies": ["uni-collapse","uni-row","uni-popup"],
+    "encrypt": [
+		"uniCloud/cloudfunctions/yyyddyydapi/index.js"
+	],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "u",
+          "vue3": "u"
+        },
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "y"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "y",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "小程序": {
+          "微信": "y",
+          "阿里": "y",
+          "百度": "y",
+          "字节跳动": "y",
+          "QQ": "y"
+        },
+        "快应用": {
+          "华为": "y",
+          "联盟": "y"
+        }
+      }
+    },
+    "extends": {
+        "sn": "U282hVbFEW2sBTXQ8mLkA4ItYxILI90Y8q9h2LeT5VQsxfjhzACVapf+ljTWz8tHcu0Wf9dfMRG1nKfKKvLnpTQmvjguHAntl2la5JGqm4JAQBhGgq5gR9169RU8zSDpgePLs62sR2lCRCaPXd6qTLP2jMfLdVsYC66BkyrIeS6xGp9W2bwaITFehfGuNsR4PcVEdDErh8jQBSqFAoLQumqpMfWulJls1RgJefjM0hbclzWnlId0YAhhYqsjOyn/LxPceprkwF4Jjz8KgLxMBxd3qfpFWIIrVOB+Mx9ACoxkIE1VbpJSfpKk8+hHUK7BpsKKwvwsYrrXgOfBwvtFTA=="
+    }
+  }
+}
